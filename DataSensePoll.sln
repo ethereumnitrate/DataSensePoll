@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSensePoll", "DataSensePoll\DataSensePoll.csproj", "{D378D15E-3DF8-4AA4-903B-CCFE26B3421B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3937B34D-703D-4BDA-B89A-3C831055CC84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionRoot", "CompositionRoot\CompositionRoot.csproj", "{24E337D7-D1EB-4E2C-9CCF-9B94AB3B4FBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{C54141FA-A602-49B5-9004-D3FCE81B80B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessProcSvc", "BusinessProcSvc\BusinessProcSvc.csproj", "{FF773F83-536B-4322-AA67-88082997D1D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBusinessProcSvc", "IBusinessProcSvc\IBusinessProcSvc.csproj", "{DBC509B2-809C-41CE-921C-78F74CB7127E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{39AECA02-5313-4DAB-B7EB-F903ACB063ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTransfer", "DataTransfer\DataTransfer.csproj", "{4A4F1C6D-F3F8-4607-A07A-54FDACEEEC90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D378D15E-3DF8-4AA4-903B-CCFE26B3421B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D378D15E-3DF8-4AA4-903B-CCFE26B3421B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D378D15E-3DF8-4AA4-903B-CCFE26B3421B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D378D15E-3DF8-4AA4-903B-CCFE26B3421B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E337D7-D1EB-4E2C-9CCF-9B94AB3B4FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E337D7-D1EB-4E2C-9CCF-9B94AB3B4FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E337D7-D1EB-4E2C-9CCF-9B94AB3B4FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E337D7-D1EB-4E2C-9CCF-9B94AB3B4FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF773F83-536B-4322-AA67-88082997D1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF773F83-536B-4322-AA67-88082997D1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF773F83-536B-4322-AA67-88082997D1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF773F83-536B-4322-AA67-88082997D1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC509B2-809C-41CE-921C-78F74CB7127E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC509B2-809C-41CE-921C-78F74CB7127E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC509B2-809C-41CE-921C-78F74CB7127E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC509B2-809C-41CE-921C-78F74CB7127E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4F1C6D-F3F8-4607-A07A-54FDACEEEC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4F1C6D-F3F8-4607-A07A-54FDACEEEC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4F1C6D-F3F8-4607-A07A-54FDACEEEC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4F1C6D-F3F8-4607-A07A-54FDACEEEC90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D378D15E-3DF8-4AA4-903B-CCFE26B3421B} = {3937B34D-703D-4BDA-B89A-3C831055CC84}
+		{24E337D7-D1EB-4E2C-9CCF-9B94AB3B4FBF} = {3937B34D-703D-4BDA-B89A-3C831055CC84}
+		{FF773F83-536B-4322-AA67-88082997D1D6} = {C54141FA-A602-49B5-9004-D3FCE81B80B4}
+		{DBC509B2-809C-41CE-921C-78F74CB7127E} = {C54141FA-A602-49B5-9004-D3FCE81B80B4}
+		{4A4F1C6D-F3F8-4607-A07A-54FDACEEEC90} = {39AECA02-5313-4DAB-B7EB-F903ACB063ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B69B2A3-D4B3-4BA9-81C7-3A37FB83C7F6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alexluy.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DataSensePoll\\DataSensePoll.csproj
+		SccProjectTopLevelParentUniqueName1 = DataSensePoll.sln
+		SccProjectName1 = DataSensePoll
+		SccLocalPath1 = DataSensePoll
+		SccProjectUniqueName2 = CompositionRoot\\CompositionRoot.csproj
+		SccProjectTopLevelParentUniqueName2 = DataSensePoll.sln
+		SccProjectName2 = CompositionRoot
+		SccLocalPath2 = CompositionRoot
+		SccProjectUniqueName3 = BusinessProcSvc\\BusinessProcSvc.csproj
+		SccProjectTopLevelParentUniqueName3 = DataSensePoll.sln
+		SccProjectName3 = BusinessProcSvc
+		SccLocalPath3 = BusinessProcSvc
+		SccProjectUniqueName4 = IBusinessProcSvc\\IBusinessProcSvc.csproj
+		SccProjectTopLevelParentUniqueName4 = DataSensePoll.sln
+		SccProjectName4 = IBusinessProcSvc
+		SccLocalPath4 = IBusinessProcSvc
+		SccProjectUniqueName5 = DataTransfer\\DataTransfer.csproj
+		SccProjectTopLevelParentUniqueName5 = DataSensePoll.sln
+		SccProjectName5 = DataTransfer
+		SccLocalPath5 = DataTransfer
+	EndGlobalSection
+EndGlobal
